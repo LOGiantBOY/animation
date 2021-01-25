@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+#dakraam{
+    animation: fadeOut 10s forwards;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+#wagenaar {
+    animation: fadeOut1 11s forwards;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+@keyframes fadeOut1 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+#bluee{
+    animation: height ease-in 5s forwards;
+    transform-origin: right;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+
+#turqoizee{
+    animation: height ease-in 6s forwards;
+    transform-origin: right;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+#bottom\ x5F\ left{
+    animation: height ease-in 7s forwards;
+    transform-origin: right;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+#side{
+    animation: height ease-in 8s forwards;
+    transform-origin: right;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+#bottom\ x5F\ right{
+    animation: height ease-in 9s forwards;
+    transform-origin: right;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+}
+
+@keyframes height {
+    from{
+        transform: scaleY(1);
+    }
+    to{
+        transform: scaleY(0);
+    }
+}
